@@ -11,9 +11,9 @@ def load():
   return l
 
 def prepare():
+  helper = [1,2,3,4,5,6,7,8,9]
   for e1 in l:
     for e2 in e1:
-      helper = [1,2,3,4,5,6,7,8,9]
       if e2 != 0:
         rem(helper, e2)
         e2 = [e2]
