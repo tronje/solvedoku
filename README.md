@@ -1,4 +1,6 @@
 solvedoku
 =========
 
-A shitty sudoku solver
+A shitty sudoku solve
+
+...written in Python
