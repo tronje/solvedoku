@@ -1,5 +1,5 @@
 rows = []
-squares = []
+squares = [[],[],[],[],[],[],[],[],[]]
 cols = []
 
 def loadrows():
@@ -13,11 +13,17 @@ def loadrows():
   return rows
 
 def loadsquares():
-  with open('testsudoku', 'r') as f:
-    read = f.read()
-    for s in read:
-      if s == '\n':
-        
+  for i in range(0,2):
+    for j in range(0,2):
+#left off here
+      for k in range():
+       squares[k].append = rows[j][i]
+
+
+  for e in rows:
+    thissquare = []
+    for i in range(1,3):
+      thissquare.append(rows[i])
 
 def initialize():
   for e1 in rows:
