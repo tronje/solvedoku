@@ -1,6 +1,10 @@
+# a shitty sudoku solving script.
+# if you're reading this and you're not sure why, feel free to send me feedback to:
+# 2krabbe@informatik.uni-hamburg.de
+
 rows = []
-squares = [[],[],[],[],[],[],[],[],[]]
-cols = []
+# squares = [[],[],[],[],[],[],[],[],[]]
+# cols = [[],[],[],[],[],[],[],[],[]]
 
 def loadrows():
   with open('testsudoku.txt', 'r') as f:
@@ -12,18 +16,16 @@ def loadrows():
         e.pop()
   return rows
 
-def loadsquares():
-  for i in range(0,2):
-    for j in range(0,2):
-#left off here
-      for k in range():
-       squares[k].append = rows[j][i]
+# def loadsquares():
+#   for k in range(1,9):
+#     for i in range(0,2):
+#       for j in range(0,2):
+#         squares[k].append = rows[j][i]
 
-
-  for e in rows:
-    thissquare = []
-    for i in range(1,3):
-      thissquare.append(rows[i])
+# def loadcols():
+#   for i in range(1,9):
+#     for j in range(1,9):
+#       cols[i][j] = rows[j][i]
 
 def initialize():
   for e1 in rows:
