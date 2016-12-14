@@ -1,6 +1,7 @@
 solvedoku
 =========
 
-A shitty sudoku solve
+A shitty sudoku solver
 
-...written in Python
+The plan is to write a solving algorithm in Rust and a web service in Python,
+probably using Flask.
