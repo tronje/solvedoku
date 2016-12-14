@@ -3,4 +3,13 @@ name = "solver"
 version = "0.1.0"
 authors = ["tronje <hi@tron.je>"]
 
+[lib]
+name = "solver"
+path = "src/lib.rs"
+
+[[bin]]
+name = "solver"
+path = "src/main.rs"
+doc = false
+
 [dependencies]
