@@ -1,3 +1,3 @@
-struct Constraint {
+pub struct Constraint {
 
 }
